@@ -23,138 +23,138 @@
 - [Benchmark Datasets on Motion Deblurring](#benchmark-datasets-on-motion-deblurring)
 
 ## Single-Image-Blind-Motion-Deblurring (non-DL)
-|Year|Pub|Paper|Repo|
-|:---:|:---:|:---:|:---:|
-|2006|TOG|[Removing camera shake from a single photograph](https://cs.nyu.edu/~fergus/papers/deblur_fergus.pdf)|[Code & Project page](https://cs.nyu.edu/~fergus/research/deblur.html)|
-|2007|CVPR|[Single image motion deblurring using transparency](http://jiaya.me/all_final_papers/motion_deblur_cvpr07.pdf)||
-|2008|CVPR|[Psf estimation using sharp edge prediction](http://vision.ucsd.edu/kriegman-grp/research/psf_estimation/psf_estimation.pdf)|[Project page](http://vision.ucsd.edu/kriegman-grp/research/psf_estimation/)|
-|2008|TOG|[High-quality motion deblurring from a single image](http://www.cse.cuhk.edu.hk/~leojia/projects/motion_deblurring/deblur_siggraph08.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/motion_deblurring/index.html)|
-|2009|TOG|[Fast motion deblurring](https://vclab.dgist.ac.kr/download/fast_motion_deblurring/paper.pdf)||
-|2009|CVPR|[Image deblurring and denoising using color priors](http://neelj.com/projects/twocolordeconvolution/two_color_deconvolution.pdf)|[Project page](http://neelj.com/projects/twocolordeconvolution/)|
-|2010|CVPR|[Efficient ̈filter flow for space-variant multiframe blind deconvolution](https://pure.mpg.de/rest/items/item_1789030/component/file_3009627/content)||
-|2010|CVPR|[Non-uniform deblurring for shaken images](http://www.di.ens.fr/willow/pdfs/cvpr10d.pdf)|[Code & Project page](https://www.di.ens.fr/willow/research/deblurring/)|
-|2010|CVPR|[Denoising vs. deblurring: HDR imaging techniques using moving cameras](https://ieeexplore.ieee.org/document/5540171)||
-|2010|ECCV|[Single image deblurring using motion density functions](http://grail.cs.washington.edu/projects/mdf_deblurring/gupta_mdf_deblurring.pdf)|[Project page](http://grail.cs.washington.edu/projects/mdf_deblurring/)|
-|2010|ECCV|[Two-phase kernel estimation for robust motion deblurring](http://www.cse.cuhk.edu.hk/~leojia/projects/robust_deblur/robust_motion_deblurring.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/robust_deblur/index.html)|
-|2010|NIPS|[Space-variant single-image blind deconvolution for removing camera shake](https://papers.nips.cc/paper/4007-space-variant-single-image-blind-deconvolution-for-removing-camera-shake.pdf)||
-|2011|CVPR|[Blind deconvolution using a normalized sparsity measure](https://dilipkay.files.wordpress.com/2019/04/priors_cvpr11.pdf)|[Code & Project page](https://dilipkay.wordpress.com/blind-deconvolution/)|
-|2011|CVPR|[Blur kernel estimation using the radon transform](http://people.csail.mit.edu/sparis/publi/2011/cvpr_radon/Cho_11_Blur_Kernel_Estimation.pdf)|[Code](http://people.csail.mit.edu/taegsang/Thesis.html)|
-|2011|CVPR|[Exploring aligned complementary image pair for blind motion deblurring](https://ieeexplore.ieee.org/document/5995351)||
-|2011|ICCV|[Fast removal of non-uniform camera shake](http://pixel.kyb.tuebingen.mpg.de/fast_removal_of_camera_shake/files/Hirsch_ICCV2011_Fast%20removal%20of%20non-uniform%20camera%20shake.pdf)||
-|2011|IJCV|[The non-parametric sub-pixel local point spread function estimation is a well posed problem](https://link.springer.com/article/10.1007/s11263-011-0460-0)||
-|2012|ECCV|[Blur-kernel estimation from spectral irregularities](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.4404&rep=rep1&type=pdf)||
-|2012|ACCV|[MRF-based Blind Image Deconvolution](http://imagine.enpc.fr/~komodakn/publications/docs/accv2012.pdf)||
-|2013|CVPR|[Unnatural L0 sparse representation for natural image deblurring](http://www.cse.cuhk.edu.hk/~leojia/projects/l0deblur/l0deblur_cvpr13.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/l0deblur/)|
-|2013|CVPR|[Handling noise in single image deblurring using directional filters](http://openaccess.thecvf.com/content_cvpr_2013/html/Zhong_Handling_Noise_in_2013_CVPR_paper.html)|
-|2013|NIPS|[Non-Uniform Camera Shake Removal Using a Spatially-Adaptive Sparse Penalty](https://papers.nips.cc/paper/4864-non-uniform-camera-shake-removal-using-a-spatially-adaptive-sparse-penalty)|[Project page](https://sites.google.com/site/hczhang1/projects/non-uniform-camera-shake-removal)|
-|2013|ICCV|[Dynamic Scene Deblurring](https://cv.snu.ac.kr/publication/conf/2013/DSD_ICCV2013.pdf)||
-|2013|ICCP|[Edge-based blur kernel estimation using patch priors](http://cs.brown.edu/~lbsun/deblur2013/patchdeblur_iccp2013.pdf)|[Project page & Results & Dataset](http://cs.brown.edu/~lbsun/deblur2013/deblur2013iccp.html)|
-|2014|CVPR|[Deblurring Text Images via L0 -Regularized Intensity and Gradient Prior](https://eng.ucmerced.edu/people/zhu/CVPR14_deblurtext.pdf)|[Code & Project page](https://sites.google.com/site/jspanhomepage/l0rigdeblur)|
-|2014|CVPR|[Segmentation-Free Dynamic Scene Deblurring](https://cv.snu.ac.kr/publication/conf/2014/SFDSD_CVPR2014.pdf)||
-|2014|CVPR|[Separable Kernel for Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2014/html/Fang_Separable_Kernel_for_2014_CVPR_paper.html)|
-|2014|CVPR|[Deblurring Low-light Images with Light Streaks](https://eng.ucmerced.edu/people/zhu/CVPR14_lightstreak.pdf)|[Code & Project page](https://eng.ucmerced.edu/people/zhu/CVPR14_lightstreak.html)|
-|2014|ECCV|[Hybrid Image Deblurring by Fusing Edge and Power Spectrum Information](http://www.juew.org/publication/ECCV14-hybridDeblur.pdf)||
-|2014|ECCV|[Deblurring Face Images with Exemplars](https://faculty.ucmerced.edu/mhyang/papers/eccv14_deblur.pdf)|[Code & Project page](https://eng.ucmerced.edu/people/zhu/ECCV14_facedeblur.html)|
-|2014|ECCV|[Blind deblurring using internal patch recurrence](http://www.wisdom.weizmann.ac.il/~vision/BlindDeblur/Michaeli_Irani_ECCV2014.pdf)|[Code & Project page](http://www.wisdom.weizmann.ac.il/~vision/BlindDeblur.html)|
-|2014|NIPS|[Scale Adaptive Blind Deblurring](https://papers.nips.cc/paper/5566-scale-adaptive-blind-deblurring)|[Project page](https://sites.google.com/site/hczhang1/projects/scale-adaptive-blind-deblurring)|
-|2015|CVPR|[Burst Deblurring: Removing Camera Shake Through Fourier Burst Accumulation](http://dev.ipol.im/~mdelbra/fba/FBA_cvpr2015_preprint.pdf)|[Project page](http://iie.fing.edu.uy/~mdelbra/fba/)|
-|2015|CVPR|[Kernel Fusion for Better Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2015/html/Mai_Kernel_Fusion_for_2015_CVPR_paper.html)|[Project page](http://web.cecs.pdx.edu/~fliu/project/kernelfusion/)|
-|2015|ICCV|[Class-Specific Image Deblurring](http://openaccess.thecvf.com/content_iccv_2015/html/Anwar_Class-Specific_Image_Deblurring_ICCV_2015_paper.html)|[Project page & Code](https://github.com/saeed-anwar/Class_Specific_Deblurring)|
-|2016|CVPR|[Blind image deblurring using dark channel prior](http://vllab1.ucmerced.edu/~jinshan/projects/dark-channel-deblur/dark-channel-deblur/cvpr16-dark-channel-deblur.pdf)|[Code & Project page](http://vllab1.ucmerced.edu/~jinshan/projects/dark-channel-deblur/)|
-|2016|CVPR|[Robust Kernel Estimation with Outliers Handling for Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2016/html/Pan_Robust_Kernel_Estimation_CVPR_2016_paper.html)|[Code](https://www.dropbox.com/s/hz9qmi8ar1k1zn0/pcode.zip?dl=0)|
-|2016|CVPR|[Blind image deconvolution by automatic gradient activation](http://openaccess.thecvf.com/content_cvpr_2016/papers/Gong_Blind_Image_Deconvolution_CVPR_2016_paper.pdf)||
-|2017|CVPR|[Image deblurring via extreme channels prior](http://openaccess.thecvf.com/content_cvpr_2017/html/Yan_Image_Deblurring_via_CVPR_2017_paper.html)|[Code & Project page](https://sites.google.com/site/renwenqi888/research/deblurring/ecp)|
-|2017|CVPR|[From local to global: Edge profiles to camera motion in blurred images](http://openaccess.thecvf.com/content_cvpr_2017/html/Vasu_From_Local_to_CVPR_2017_paper.html)|[Project page & Results-on-benchmark-datasets](https://subeeshvasu.github.io/2017_subeesh_from_cvpr/)|
-|2017|CVPR|[Deblurring Natural Image Using Super-Gaussian Fields](http://openaccess.thecvf.com/content_ECCV_2018/html/Yuhang_Liu_Deblurring_Natural_Image_ECCV_2018_paper.html)||
-|2017|ICCV|[Blind Image Deblurring with Outlier Handling](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dong_Blind_Image_Deblurring_ICCV_2017_paper.pdf)|[Code](https://www.dropbox.com/s/qmxkkwgnmuwrfoj/code_iccv2017_outlier.zip?dl=0)|
-|2017|ICCV|[Self-paced Kernel Estimation for Robust Blind Image Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Gong_Self-Paced_Kernel_Estimation_ICCV_2017_paper.pdf)|[Code](https://donggong1.github.io/publications.html)[Data & Results](https://drive.google.com/open?id=1gP_s-87js7KKFrIzAlushc1HJqEogR1L)|
-|2017|ICCV|[Convergence Analysis of MAP based Blur Kernel Estimation](http://openaccess.thecvf.com/content_iccv_2017/html/Cho_Convergence_Analysis_of_ICCV_2017_paper.html)||
-|2018|ECCV|[Normalized Blind Deconvolution](http://openaccess.thecvf.com/content_ECCV_2018/html/Meiguang_Jin_Normalized_Blind_Deconvolution_ECCV_2018_paper.html)|[Code](https://github.com/MeiguangJin/NBD)|
-|2018|TIP|[Graph-Based Blind Image Deblurring From a Single Photograph](https://arxiv.org/abs/1802.07929)||
-|2019|CVPR|[Blind Image Deblurring With Local Maximum Gradient Prior](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Blind_Image_Deblurring_With_Local_Maximum_Gradient_Prior_CVPR_2019_paper.html)||
-|2019|CVPR|[Phase-Only Image Based Kernel Estimation for Single Image Blind Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Phase-Only_Image_Based_Kernel_Estimation_for_Single_Image_Blind_Deblurring_CVPR_2019_paper.html)|[Results-on-benchmark-datasets](https://github.com/panpanfei/Phase-only-Image-Based-Kernel-Estimation-for-Blind-Motion-Deblurring/tree/master/result)|
-|2019|CVPR|[A Variational EM Framework With Adaptive Edge Selection for Blind Motion Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_A_Variational_EM_Framework_With_Adaptive_Edge_Selection_for_Blind_CVPR_2019_paper.html)||
-|2020|ECCV|[OID: Outlier Identifying and Discarding in Blind Image Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700596.pdf)||
-|2020|ECCV|[Enhanced Sparse Model for Blind Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700630.pdf)||
+|Year|Pub|Paper|Repo|Cite|
+|:---:|:---:|:---:|:---:|:---:|
+|2006|TOG|[Removing camera shake from a single photograph](https://cs.nyu.edu/~fergus/papers/deblur_fergus.pdf)|[Code & Project page](https://cs.nyu.edu/~fergus/research/deblur.html)|2055|
+|2007|CVPR|[Single image motion deblurring using transparency](http://jiaya.me/all_final_papers/motion_deblur_cvpr07.pdf)||407|
+|2008|CVPR|[Psf estimation using sharp edge prediction](http://vision.ucsd.edu/kriegman-grp/research/psf_estimation/psf_estimation.pdf)|[Project page](http://vision.ucsd.edu/kriegman-grp/research/psf_estimation/)|597|
+|2008|TOG|[High-quality motion deblurring from a single image](http://www.cse.cuhk.edu.hk/~leojia/projects/motion_deblurring/deblur_siggraph08.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/motion_deblurring/index.html)|1525|
+|2009|TOG|[Fast motion deblurring](https://vclab.dgist.ac.kr/download/fast_motion_deblurring/paper.pdf)||1028|
+|2009|CVPR|[Image deblurring and denoising using color priors](http://neelj.com/projects/twocolordeconvolution/two_color_deconvolution.pdf)|[Project page](http://neelj.com/projects/twocolordeconvolution/)|193|
+|2010|CVPR|[Efficient ̈filter flow for space-variant multiframe blind deconvolution](https://pure.mpg.de/rest/items/item_1789030/component/file_3009627/content)||203|
+|2010|CVPR|[Non-uniform deblurring for shaken images](http://www.di.ens.fr/willow/pdfs/cvpr10d.pdf)|[Code & Project page](https://www.di.ens.fr/willow/research/deblurring/)|624|
+|2010|CVPR|[Denoising vs. deblurring: HDR imaging techniques using moving cameras](https://ieeexplore.ieee.org/document/5540171)||42|
+|2010|ECCV|[Single image deblurring using motion density functions](http://grail.cs.washington.edu/projects/mdf_deblurring/gupta_mdf_deblurring.pdf)|[Project page](http://grail.cs.washington.edu/projects/mdf_deblurring/)|337|
+|2010|ECCV|[Two-phase kernel estimation for robust motion deblurring](http://www.cse.cuhk.edu.hk/~leojia/projects/robust_deblur/robust_motion_deblurring.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/robust_deblur/index.html)|912|
+|2010|NIPS|[Space-variant single-image blind deconvolution for removing camera shake](https://papers.nips.cc/paper/4007-space-variant-single-image-blind-deconvolution-for-removing-camera-shake.pdf)||123|
+|2011|CVPR|[Blind deconvolution using a normalized sparsity measure](https://dilipkay.files.wordpress.com/2019/04/priors_cvpr11.pdf)|[Code & Project page](https://dilipkay.wordpress.com/blind-deconvolution/)|866|
+|2011|CVPR|[Blur kernel estimation using the radon transform](http://people.csail.mit.edu/sparis/publi/2011/cvpr_radon/Cho_11_Blur_Kernel_Estimation.pdf)|[Code](http://people.csail.mit.edu/taegsang/Thesis.html)|178|
+|2011|CVPR|[Exploring aligned complementary image pair for blind motion deblurring](https://ieeexplore.ieee.org/document/5995351)||24|
+|2011|ICCV|[Fast removal of non-uniform camera shake](http://pixel.kyb.tuebingen.mpg.de/fast_removal_of_camera_shake/files/Hirsch_ICCV2011_Fast%20removal%20of%20non-uniform%20camera%20shake.pdf)||277|
+|2011|IJCV|[The non-parametric sub-pixel local point spread function estimation is a well posed problem](https://link.springer.com/article/10.1007/s11263-011-0460-0)||50|
+|2012|ECCV|[Blur-kernel estimation from spectral irregularities](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.4404&rep=rep1&type=pdf)||125|
+|2012|ACCV|[MRF-based Blind Image Deconvolution](http://imagine.enpc.fr/~komodakn/publications/docs/accv2012.pdf)||19|
+|2013|CVPR|[Unnatural L0 sparse representation for natural image deblurring](http://www.cse.cuhk.edu.hk/~leojia/projects/l0deblur/l0deblur_cvpr13.pdf)|[Code & Project page](http://www.cse.cuhk.edu.hk/~leojia/projects/l0deblur/)|702|
+|2013|CVPR|[Handling noise in single image deblurring using directional filters](http://openaccess.thecvf.com/content_cvpr_2013/html/Zhong_Handling_Noise_in_2013_CVPR_paper.html)||189|
+|2013|NIPS|[Non-Uniform Camera Shake Removal Using a Spatially-Adaptive Sparse Penalty](https://papers.nips.cc/paper/4864-non-uniform-camera-shake-removal-using-a-spatially-adaptive-sparse-penalty)|[Project page](https://sites.google.com/site/hczhang1/projects/non-uniform-camera-shake-removal)|34|
+|2013|ICCV|[Dynamic Scene Deblurring](https://cv.snu.ac.kr/publication/conf/2013/DSD_ICCV2013.pdf)||95|
+|2013|ICCP|[Edge-based blur kernel estimation using patch priors](http://cs.brown.edu/~lbsun/deblur2013/patchdeblur_iccp2013.pdf)|[Project page & Results & Dataset](http://cs.brown.edu/~lbsun/deblur2013/deblur2013iccp.html)|297|
+|2014|CVPR|[Deblurring Text Images via L0 -Regularized Intensity and Gradient Prior](https://eng.ucmerced.edu/people/zhu/CVPR14_deblurtext.pdf)|[Code & Project page](https://sites.google.com/site/jspanhomepage/l0rigdeblur)|284|
+|2014|CVPR|[Segmentation-Free Dynamic Scene Deblurring](https://cv.snu.ac.kr/publication/conf/2014/SFDSD_CVPR2014.pdf)||111|
+|2014|CVPR|[Separable Kernel for Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2014/html/Fang_Separable_Kernel_for_2014_CVPR_paper.html)||16|
+|2014|CVPR|[Deblurring Low-light Images with Light Streaks](https://eng.ucmerced.edu/people/zhu/CVPR14_lightstreak.pdf)|[Code & Project page](https://eng.ucmerced.edu/people/zhu/CVPR14_lightstreak.html)|107|
+|2014|ECCV|[Hybrid Image Deblurring by Fusing Edge and Power Spectrum Information](http://www.juew.org/publication/ECCV14-hybridDeblur.pdf)||18|
+|2014|ECCV|[Deblurring Face Images with Exemplars](https://faculty.ucmerced.edu/mhyang/papers/eccv14_deblur.pdf)|[Code & Project page](https://eng.ucmerced.edu/people/zhu/ECCV14_facedeblur.html)|93|
+|2014|ECCV|[Blind deblurring using internal patch recurrence](http://www.wisdom.weizmann.ac.il/~vision/BlindDeblur/Michaeli_Irani_ECCV2014.pdf)|[Code & Project page](http://www.wisdom.weizmann.ac.il/~vision/BlindDeblur.html)|232|
+|2014|NIPS|[Scale Adaptive Blind Deblurring](https://papers.nips.cc/paper/5566-scale-adaptive-blind-deblurring)|[Project page](https://sites.google.com/site/hczhang1/projects/scale-adaptive-blind-deblurring)|5|
+|2015|CVPR|[Burst Deblurring: Removing Camera Shake Through Fourier Burst Accumulation](http://dev.ipol.im/~mdelbra/fba/FBA_cvpr2015_preprint.pdf)|[Project page](http://iie.fing.edu.uy/~mdelbra/fba/)|38|
+|2015|CVPR|[Kernel Fusion for Better Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2015/html/Mai_Kernel_Fusion_for_2015_CVPR_paper.html)|[Project page](http://web.cecs.pdx.edu/~fliu/project/kernelfusion/)|29|
+|2015|ICCV|[Class-Specific Image Deblurring](http://openaccess.thecvf.com/content_iccv_2015/html/Anwar_Class-Specific_Image_Deblurring_ICCV_2015_paper.html)|[Project page & Code](https://github.com/saeed-anwar/Class_Specific_Deblurring)|27|
+|2016|CVPR|[Blind image deblurring using dark channel prior](http://vllab1.ucmerced.edu/~jinshan/projects/dark-channel-deblur/dark-channel-deblur/cvpr16-dark-channel-deblur.pdf)|[Code & Project page](http://vllab1.ucmerced.edu/~jinshan/projects/dark-channel-deblur/)|341|
+|2016|CVPR|[Robust Kernel Estimation with Outliers Handling for Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2016/html/Pan_Robust_Kernel_Estimation_CVPR_2016_paper.html)|[Code](https://www.dropbox.com/s/hz9qmi8ar1k1zn0/pcode.zip?dl=0)|46|
+|2016|CVPR|[Blind image deconvolution by automatic gradient activation](http://openaccess.thecvf.com/content_cvpr_2016/papers/Gong_Blind_Image_Deconvolution_CVPR_2016_paper.pdf)||53|
+|2017|CVPR|[Image deblurring via extreme channels prior](http://openaccess.thecvf.com/content_cvpr_2017/html/Yan_Image_Deblurring_via_CVPR_2017_paper.html)|[Code & Project page](https://sites.google.com/site/renwenqi888/research/deblurring/ecp)|102|
+|2017|CVPR|[From local to global: Edge profiles to camera motion in blurred images](http://openaccess.thecvf.com/content_cvpr_2017/html/Vasu_From_Local_to_CVPR_2017_paper.html)|[Project page & Results-on-benchmark-datasets](https://subeeshvasu.github.io/2017_subeesh_from_cvpr/)|11|
+|2017|CVPR|[Deblurring Natural Image Using Super-Gaussian Fields](http://openaccess.thecvf.com/content_ECCV_2018/html/Yuhang_Liu_Deblurring_Natural_Image_ECCV_2018_paper.html)||12|
+|2017|ICCV|[Blind Image Deblurring with Outlier Handling](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dong_Blind_Image_Deblurring_ICCV_2017_paper.pdf)|[Code](https://www.dropbox.com/s/qmxkkwgnmuwrfoj/code_iccv2017_outlier.zip?dl=0)|25|
+|2017|ICCV|[Self-paced Kernel Estimation for Robust Blind Image Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Gong_Self-Paced_Kernel_Estimation_ICCV_2017_paper.pdf)|[Code](https://donggong1.github.io/publications.html)[Data & Results](https://drive.google.com/open?id=1gP_s-87js7KKFrIzAlushc1HJqEogR1L)|16|
+|2017|ICCV|[Convergence Analysis of MAP based Blur Kernel Estimation](http://openaccess.thecvf.com/content_iccv_2017/html/Cho_Convergence_Analysis_of_ICCV_2017_paper.html)||12|
+|2018|ECCV|[Normalized Blind Deconvolution](http://openaccess.thecvf.com/content_ECCV_2018/html/Meiguang_Jin_Normalized_Blind_Deconvolution_ECCV_2018_paper.html)|[Code](https://github.com/MeiguangJin/NBD)|14|
+|2018|TIP|[Graph-Based Blind Image Deblurring From a Single Photograph](https://arxiv.org/abs/1802.07929)||40|
+|2019|CVPR|[Blind Image Deblurring With Local Maximum Gradient Prior](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Blind_Image_Deblurring_With_Local_Maximum_Gradient_Prior_CVPR_2019_paper.html)||17|
+|2019|CVPR|[Phase-Only Image Based Kernel Estimation for Single Image Blind Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Pan_Phase-Only_Image_Based_Kernel_Estimation_for_Single_Image_Blind_Deblurring_CVPR_2019_paper.html)|[Results-on-benchmark-datasets](https://github.com/panpanfei/Phase-only-Image-Based-Kernel-Estimation-for-Blind-Motion-Deblurring/tree/master/result)|9|
+|2019|CVPR|[A Variational EM Framework With Adaptive Edge Selection for Blind Motion Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Yang_A_Variational_EM_Framework_With_Adaptive_Edge_Selection_for_Blind_CVPR_2019_paper.html)||4|
+|2020|ECCV|[OID: Outlier Identifying and Discarding in Blind Image Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700596.pdf)|||
+|2020|ECCV|[Enhanced Sparse Model for Blind Deblurring](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700630.pdf)|||
 
 
 ## Single-Image-Blind-Motion-Deblurring (DL)
-|Year|Pub|Paper|Repo|
-|:---:|:---:|:---:|:---:|
-|2015|CVPR|[Learning a convolutional neural network for non-uniform motion blur removal](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Learning_a_Convolutional_2015_CVPR_paper.pdf)|[Code 1](http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=2076150&name=DLFE-78101.zip),[Code 2](https://github.com/Sibozhu/MotionBlur-detection-by-CNN)|
-|2015|CVPR|[Convolutional neural networks for direct text deblurring](http://www.bmva.org/bmvc/2015/papers/paper006/index.html)|[Code and Project Page](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|
-|2016|ECCV|[A neural approach to blind motion deblurring](https://arxiv.org/abs/1603.04771)|[Code](https://github.com/ayanc/ndeblur)|
-|2016|PAMI|[Learning to deblur](https://arxiv.org/pdf/1406.7444.pdf)||
-|2017|CVPR|[Deep multi-scale convolutional neural network for dynamic scene deblurring](http://zpascal.net/cvpr2017/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf)|[Code](https://github.com/SeungjunNah/DeepDeblur_release)|
-|2017|CVPR|[From Motion Blur to Motion Flow: A Deep Learning Solution for Removing Heterogeneous Motion Blur](http://openaccess.thecvf.com/content_cvpr_2017/papers/Gong_From_Motion_Blur_CVPR_2017_paper.pdf)|[Code & Project page](https://donggong1.github.io/blur2mflow.html)|
-|2017|ICCV|[Blur-Invariant Deep Learning for Blind Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Nimisha_Blur-Invariant_Deep_Learning_ICCV_2017_paper.pdf)||
-|2017|ICCV|[Learning to Super-resolve Blurry Face and Text Images](http://faculty.ucmerced.edu/mhyang/papers/iccv2017_gan_super_deblur.pdf)|[Code & Project page](https://sites.google.com/view/xiangyuxu/deblursr_iccv17)|
-|2017|ICCV|[Learning Discriminative Data Fitting Functions for Blind Image Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Pan_Learning_Discriminative_Data_ICCV_2017_paper.pdf)|[Code](https://www.dropbox.com/s/oavk46q521fiowr/iccv17_learning_deblur_code.zip?dl=0)|
-|2018|TIP|[Motion blur kernel estimation via deep learning](https://ieeexplore.ieee.org/abstract/document/8039224)|[Code & Project page](https://sites.google.com/view/xiangyuxu/deepedge_tip)|
-|2018|CVPR|[Deep Semantic Face Deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Semantic_Face_CVPR_2018_paper.html)|[Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)|
-|2018|CVPR|[Learning a Discriminative Prior for Blind Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_Learning_a_Discriminative_CVPR_2018_paper.html)|[Code & Project page](https://sites.google.com/view/lerenhanli/homepage/learn_prior_deblur)|
-|2018|CVPR|[Dynamic Scene Deblurring Using Spatially Variant Recurrent Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Dynamic_Scene_Deblurring_CVPR_2018_paper.html)|[Code](https://github.com/zhjwustc/cvpr18_rnn_deblur_matcaffe)|
-|2018|CVPR|[Scale-recurrent network for deep image deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Tao_Scale-Recurrent_Network_for_CVPR_2018_paper.html)|[Code](https://github.com/jiangsutx/SRN-Deblur)|
-|2018|CVPR|[Deblurgan: Blind motion deblurring using conditional adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018/html/Kupyn_DeblurGAN_Blind_Motion_CVPR_2018_paper.html)|[Code-Pytorch](https://github.com/KupynOrest/DeblurGAN)|
-|2018|ECCV|[Unsupervised Class-Specific Deblurring](http://openaccess.thecvf.com/content_ECCV_2018/html/Nimisha_T_M_Unsupervised_Class-Specific_Deblurring_ECCV_2018_paper.html)||
-|2018|BMVC|[Gated Fusion Network for Joint Image Deblurring and Super-Resolution](https://arxiv.org/abs/1807.10806)|[Code](https://github.com/jacquelinelala/GFN)|[Project page](http://xinyizhang.tech/bmvc2018/)|
-|2018|Arxiv|[Blind image deconvolution using deep generative priors](https://arxiv.org/abs/1802.04073)||
-|2019|WACV|[Gyroscope-Aided Motion Deblurring with Deep Networks](https://arxiv.org/abs/1810.00986)|[Code](https://github.com/jannemus/DeepGyro)|
-|2019|CVPR|[Deep Plug-And-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html)|[Code](https://github.com/cszn/DPSR)|
-|2019|CVPR|[Dynamic Scene Deblurring With Parameter Selective Sharing and Nested Skip Connections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gao_Dynamic_Scene_Deblurring_With_Parameter_Selective_Sharing_and_Nested_Skip_CVPR_2019_paper.html)||
-|2019|CVPR|[Deep Stacked Hierarchical Multi-Patch Network for Image Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Stacked_Hierarchical_Multi-Patch_Network_for_Image_Deblurring_CVPR_2019_paper.html)|[Code](https://github.com/HongguangZhang/DMPHN-cvpr19-master)|
-|2019|CVPR|[Unsupervised Domain-Specific Deblurring via Disentangled Representations](http://openaccess.thecvf.com/content_CVPR_2019/html/Lu_Unsupervised_Domain-Specific_Deblurring_via_Disentangled_Representations_CVPR_2019_paper.html)|[Code](https://github.com/ustclby/Unsupervised-Domain-Specific-Deblurring)|
-|2019|CVPR|[Bringing Alive Blurred Moments](http://openaccess.thecvf.com/content_CVPR_2019/html/Purohit_Bringing_Alive_Blurred_Moments_CVPR_2019_paper.html)|[Project page & Results-on-benchmark-datasets](https://github.com/anshulbshah/Blurred-Image-to-Video)|
-|2019|CVPR|[Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelity Terms for Blind Image Deconvolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Aljadaany_Douglas-Rachford_Networks_Learning_Both_the_Image_Prior_and_Data_Fidelity_CVPR_2019_paper.html)||
-|2019|ICCV|[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826)|[Code](https://github.com/TAMU-VITA/DeblurGANv2)|
-|2019|ICCV (HIDE)|[Human-Aware Motion Deblurring](https://pdfs.semanticscholar.org/20a4/b3353579525f0b76ec42e17a2284b4453f9a.pdf)||
-|2019|IJCV|[Joint Face Hallucination and Deblurring via Structure Generation and Detail Enhancement](https://arxiv.org/abs/1811.09019)|[Code](https://github.com/TAMU-VITA/DeblurGANv2)|
-|2020|AAAI|[Learning to Deblur Face Images via Sketch Synthesis](https://aaai.org/ojs/index.php/AAAI/article/view/6818/6672)||
-|2020|AAAI|[Region-Adaptive Dense Network for Efficient Motion Deblurring](https://arxiv.org/abs/1903.11394)||
-|2020|WACV|[DAVID: Dual-Attentional Video Deblurring](http://openaccess.thecvf.com/content_WACV_2020/html/Wu_DAVID_Dual-Attentional_Video_Deblurring_WACV_2020_paper.html)||
-|2020|CVPR|[Neural Blind Deconvolution Using Deep Priors](https://arxiv.org/abs/1908.02197)|[Code](https://github.com/csdwren/SelfDeblur)|
-|2020|TIP|[Efficient and Interpretable Deep Blind Image Deblurring Via Algorithm Unrolling](https://arxiv.org/pdf/1902.03493.pdf)||
-|2020|CVPR|[Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring](https://arxiv.org/pdf/2004.05343.pdf)||
-|2020|CVPR|[Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860)||
-|2020|CVPR|[Learning Event-Based Motion Deblurring](https://arxiv.org/abs/2004.05794)||
-|2020|CVPR|[Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training](https://openaccess.thecvf.com/content_CVPR_2020/html/Yuan_Efficient_Dynamic_Scene_Deblurring_Using_Spatially_Variant_Deconvolution_Network_With_CVPR_2020_paper.html)||
-|2020|CVPR|[Deblurring using Analysis-Synthesis Networks Pair](https://arxiv.org/abs/2004.02956)||
-|2020|IEEEAccess|[Scale-Iterative Upscaling Network for Image Deblurring](https://ieeexplore.ieee.org/document/8963625)|[Code](https://github.com/minyuanye/SIUN)|
-|2020|ECCV|[Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training](https://arxiv.org/abs/1911.07410)||
-|2020|TIP|[Deblurring Face Images using Uncertainty Guided Multi-Stream Semantic Networks](https://arxiv.org/abs/1907.13106)|[Code](https://github.com/rajeevyasarla/UMSN-Face-Deblurring)|
+|Year|Pub|Paper|Repo|Cite|
+|:---:|:---:|:---:|:---:|:---:|
+|2015|CVPR|[Learning a convolutional neural network for non-uniform motion blur removal](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Learning_a_Convolutional_2015_CVPR_paper.pdf)|[Code 1](http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=2076150&name=DLFE-78101.zip),[Code 2](https://github.com/Sibozhu/MotionBlur-detection-by-CNN)|383|
+|2015|CVPR|[Convolutional neural networks for direct text deblurring](http://www.bmva.org/bmvc/2015/papers/paper006/index.html)|[Code and Project Page](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/)|113|
+|2016|ECCV|[A neural approach to blind motion deblurring](https://arxiv.org/abs/1603.04771)|[Code](https://github.com/ayanc/ndeblur)|193|
+|2016|PAMI|[Learning to deblur](https://arxiv.org/pdf/1406.7444.pdf)||298|
+|2017|CVPR|[Deep multi-scale convolutional neural network for dynamic scene deblurring](http://zpascal.net/cvpr2017/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf)|[Code](https://github.com/SeungjunNah/DeepDeblur_release)|515|
+|2017|CVPR|[From Motion Blur to Motion Flow: A Deep Learning Solution for Removing Heterogeneous Motion Blur](http://openaccess.thecvf.com/content_cvpr_2017/papers/Gong_From_Motion_Blur_CVPR_2017_paper.pdf)|[Code & Project page](https://donggong1.github.io/blur2mflow.html)|127|
+|2017|ICCV|[Blur-Invariant Deep Learning for Blind Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Nimisha_Blur-Invariant_Deep_Learning_ICCV_2017_paper.pdf)||62|
+|2017|ICCV|[Learning to Super-resolve Blurry Face and Text Images](http://faculty.ucmerced.edu/mhyang/papers/iccv2017_gan_super_deblur.pdf)|[Code & Project page](https://sites.google.com/view/xiangyuxu/deblursr_iccv17)|83|
+|2017|ICCV|[Learning Discriminative Data Fitting Functions for Blind Image Deblurring](http://openaccess.thecvf.com/content_ICCV_2017/papers/Pan_Learning_Discriminative_Data_ICCV_2017_paper.pdf)|[Code](https://www.dropbox.com/s/oavk46q521fiowr/iccv17_learning_deblur_code.zip?dl=0)|15|
+|2018|TIP|[Motion blur kernel estimation via deep learning](https://ieeexplore.ieee.org/abstract/document/8039224)|[Code & Project page](https://sites.google.com/view/xiangyuxu/deepedge_tip)|53|
+|2018|CVPR|[Deep Semantic Face Deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Shen_Deep_Semantic_Face_CVPR_2018_paper.html)|[Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)|61|
+|2018|CVPR|[Learning a Discriminative Prior for Blind Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Li_Learning_a_Discriminative_CVPR_2018_paper.html)|[Code & Project page](https://sites.google.com/view/lerenhanli/homepage/learn_prior_deblur)|68|
+|2018|CVPR|[Dynamic Scene Deblurring Using Spatially Variant Recurrent Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Dynamic_Scene_Deblurring_CVPR_2018_paper.html)|[Code](https://github.com/zhjwustc/cvpr18_rnn_deblur_matcaffe)|73|
+|2018|CVPR|[Scale-recurrent network for deep image deblurring](http://openaccess.thecvf.com/content_cvpr_2018/html/Tao_Scale-Recurrent_Network_for_CVPR_2018_paper.html)|[Code](https://github.com/jiangsutx/SRN-Deblur)|235|
+|2018|CVPR|[Deblurgan: Blind motion deblurring using conditional adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018/html/Kupyn_DeblurGAN_Blind_Motion_CVPR_2018_paper.html)|[Code-Pytorch](https://github.com/KupynOrest/DeblurGAN)|415|
+|2018|ECCV|[Unsupervised Class-Specific Deblurring](http://openaccess.thecvf.com/content_ECCV_2018/html/Nimisha_T_M_Unsupervised_Class-Specific_Deblurring_ECCV_2018_paper.html)||16|
+|2018|BMVC|[Gated Fusion Network for Joint Image Deblurring and Super-Resolution](https://arxiv.org/abs/1807.10806)|[Code](https://github.com/jacquelinelala/GFN)&[Project page](http://xinyizhang.tech/bmvc2018/)|24|
+|2018|Arxiv|[Blind image deconvolution using deep generative priors](https://arxiv.org/abs/1802.04073)||15|
+|2019|WACV|[Gyroscope-Aided Motion Deblurring with Deep Networks](https://arxiv.org/abs/1810.00986)|[Code](https://github.com/jannemus/DeepGyro)|2|
+|2019|CVPR|[Deep Plug-And-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html)|[Code](https://github.com/cszn/DPSR)|55|
+|2019|CVPR|[Dynamic Scene Deblurring With Parameter Selective Sharing and Nested Skip Connections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gao_Dynamic_Scene_Deblurring_With_Parameter_Selective_Sharing_and_Nested_Skip_CVPR_2019_paper.html)||26|
+|2019|CVPR|[Deep Stacked Hierarchical Multi-Patch Network for Image Deblurring](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Stacked_Hierarchical_Multi-Patch_Network_for_Image_Deblurring_CVPR_2019_paper.html)|[Code](https://github.com/HongguangZhang/DMPHN-cvpr19-master)|29|
+|2019|CVPR|[Unsupervised Domain-Specific Deblurring via Disentangled Representations](http://openaccess.thecvf.com/content_CVPR_2019/html/Lu_Unsupervised_Domain-Specific_Deblurring_via_Disentangled_Representations_CVPR_2019_paper.html)|[Code](https://github.com/ustclby/Unsupervised-Domain-Specific-Deblurring)|34|
+|2019|CVPR|[Bringing Alive Blurred Moments](http://openaccess.thecvf.com/content_CVPR_2019/html/Purohit_Bringing_Alive_Blurred_Moments_CVPR_2019_paper.html)|[Project page & Results-on-benchmark-datasets](https://github.com/anshulbshah/Blurred-Image-to-Video)|12|
+|2019|CVPR|[Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelity Terms for Blind Image Deconvolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Aljadaany_Douglas-Rachford_Networks_Learning_Both_the_Image_Prior_and_Data_Fidelity_CVPR_2019_paper.html)||9|
+|2019|ICCV|[DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better](https://arxiv.org/abs/1908.03826)|[Code](https://github.com/TAMU-VITA/DeblurGANv2)|49|
+|2019|ICCV (HIDE)|[Human-Aware Motion Deblurring](https://pdfs.semanticscholar.org/20a4/b3353579525f0b76ec42e17a2284b4453f9a.pdf)||15|
+|2019|IJCV|[Joint Face Hallucination and Deblurring via Structure Generation and Detail Enhancement](https://arxiv.org/abs/1811.09019)|[Code](https://github.com/TAMU-VITA/DeblurGANv2)|16|
+|2020|AAAI|[Learning to Deblur Face Images via Sketch Synthesis](https://aaai.org/ojs/index.php/AAAI/article/view/6818/6672)|||
+|2020|AAAI|[Region-Adaptive Dense Network for Efficient Motion Deblurring](https://arxiv.org/abs/1903.11394)||3|
+|2020|WACV|[DAVID: Dual-Attentional Video Deblurring](http://openaccess.thecvf.com/content_WACV_2020/html/Wu_DAVID_Dual-Attentional_Video_Deblurring_WACV_2020_paper.html)||3|
+|2020|CVPR|[Neural Blind Deconvolution Using Deep Priors](https://arxiv.org/abs/1908.02197)|[Code](https://github.com/csdwren/SelfDeblur)|12|
+|2020|TIP|[Efficient and Interpretable Deep Blind Image Deblurring Via Algorithm Unrolling](https://arxiv.org/pdf/1902.03493.pdf)||6|
+|2020|CVPR|[Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring](https://arxiv.org/pdf/2004.05343.pdf)||1|
+|2020|CVPR|[Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860)|||
+|2020|CVPR|[Learning Event-Based Motion Deblurring](https://arxiv.org/abs/2004.05794)||2|
+|2020|CVPR|[Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training](https://openaccess.thecvf.com/content_CVPR_2020/html/Yuan_Efficient_Dynamic_Scene_Deblurring_Using_Spatially_Variant_Deconvolution_Network_With_CVPR_2020_paper.html)|||
+|2020|CVPR|[Deblurring using Analysis-Synthesis Networks Pair](https://arxiv.org/abs/2004.02956)|||
+|2020|IEEEAccess|[Scale-Iterative Upscaling Network for Image Deblurring](https://ieeexplore.ieee.org/document/8963625)|[Code](https://github.com/minyuanye/SIUN)|1|
+|2020|ECCV|[Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training](https://arxiv.org/abs/1911.07410)|||
+|2020|TIP|[Deblurring Face Images using Uncertainty Guided Multi-Stream Semantic Networks](https://arxiv.org/abs/1907.13106)|[Code](https://github.com/rajeevyasarla/UMSN-Face-Deblurring)|4|
 
 ## Non-Blind-Deblurring
-|Year|Pub|Paper|Repo|
-|:---:|:---:|:---:|:---:|
-|2006|IJCV|[Image deblurring in the presence of impulsive noise](https://link.springer.com/article/10.1007/s11263-006-6468-1)||
-|2009|NIPS|[Fast image deconvolution using hyper-laplacian priors](http://cs.nyu.edu/~dilip/research/papers/fid_nips09.pdf)|[Code & Project page](https://dilipkay.wordpress.com/fast-deconvolution/)|
-|2011|PAMI|[Richardson-Lucy Deblurring for Scenes under a Projective Motion Path](https://ieeexplore.ieee.org/document/5674049)||
-|2011|ICCV|[Handling outliers in non-blind image deconvolution](http://cg.postech.ac.kr/papers/deconv_outliers.pdf)|[Code](https://github.com/CoupeLibrary/handleoutlier)|
-|2011|ICCV|[From learning models of natural image patches to whole image restoration](http://people.ee.duke.edu/~lcarin/EPLICCVCameraReady.pdf)|[Code](http://people.csail.mit.edu/danielzoran/)|
-|2012|TIP|[Bm3d frames and variational image deblurring](https://www.cs.tut.fi/~foi/GCF-BM3D/BM3DframesDeblur-Danielyan.pdf)||
-|2012|TIP|[Robust image deblurring with an inaccurate blur kernel](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.1055&rep=rep1&type=pdf) [Code](https://blog.nus.edu.sg/matjh/download/)|
-|2013|CVPR|[A machine learning approach for non-blind image deconvolution](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Schuler_A_Machine_Learning_2013_CVPR_paper.pdf)|[Code & Project page](http://webdav.is.mpg.de/pixel/neural_deconvolution/)|
-|2013|CVPR|[Discriminative non-blind deblurring](http://openaccess.thecvf.com/content_cvpr_2013/papers/Schmidt_Discriminative_Non-blind_Deblurring_2013_CVPR_paper.pdf)|[Code](https://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#discriminative_deblurring)|
-|2014|TIP|[A general framework for regularized, similarity-based image restoration](http://www.academia.edu/download/42621942/A_General_Framework_for_Regularized_Simi20160212-19526-i3txol.pdf) [Code & Project page](http://alumni.soe.ucsc.edu/~aminkh/KernelRestoration.html)|
-|2014|NIPS|[Deep convolutional neural network for image deconvolution](http://www.cse.cuhk.edu.hk/leojia/papers/deconv_nips14.pdf)|[Code & Project page](http://lxu.me/projects/dcnn/)|
-|2014|CVPR|[Shrinkage fields for effective image restoration](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)|[Code](https://github.com/uschmidt83/shrinkage-fields)|
-|2014|ECCV|[Good Image Priors for Non-blind Deconvolution: Generic vs Specific](http://cs.brown.edu/~lbsun/GoodPriors2014/goodpriors_eccv2014.pdf)|[Project page](http://cs.brown.edu/~lbsun/GoodPriors2014/goodpriors2014eccv.html)|
-|2016|CVIP|[Fast Non-Blind Image De-blurring With Sparse Priors](https://link.springer.com/chapter/10.1007/978-981-10-2104-6_56)||
-|2017|TIP|[Partial Deconvolution With Inaccurate Blur Kernel](https://ieeexplore.ieee.org/document/8071032)||
-|2017|CVPR|[Noise-Blind Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2017/html/Jin_Noise-Blind_Image_Deblurring_CVPR_2017_paper.html)||
-|2017|CVPR|[Learning Deep CNN Denoiser Prior for Image Restoration](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhang_Learning_Deep_CNN_CVPR_2017_paper.html)|[Code](https://github.com/cszn/ircnn)|
-|2017|CVPR|[Learning Fully Convolutional Networks for Iterative Non-blind Deconvolution](https://arxiv.org/pdf/1611.06495)|[Code](https://github.com/zhjwustc/cvpr17_iter_deblur_testing_matconvnet)|
-|2017|ICCV|[Learning to push the limits of efficient fft-based image deconvolution](http://research.uweschmidt.org/pubs/iccv17kruse.pdf)|[Code](https://github.com/uschmidt83/fourier-deconvolution-network)|
-|2017|NIPS|[Deep Mean-Shift Priors for Image Restoration](https://papers.nips.cc/paper/6678-deep-mean-shift-priors-for-image-restoration.pdf)|[Code](https://github.com/siavashbigdeli/DMSP)|
-|2018|ICIP|[Modeling Realistic Degradations in Non-Blind Deconvolution](https://arxiv.org/abs/1806.01097)||
-|2018|CVPR|[Non-blind Deblurring: Handling Kernel Uncertainty with CNNs](http://openaccess.thecvf.com/content_cvpr_2018/html/Vasu_Non-Blind_Deblurring_Handling_CVPR_2018_paper.html)|[Project page & Results-on-benchmark-datasets](https://github.com/subeeshvasu/2018_subeesh_nbd_cvpr)|
-|2018|Arxiv|[Learning an Optimizer for Image Deconvolution](https://arxiv.org/abs/1804.03368)|[Code](https://github.com/donggong1/learn-optimizer-rgdn)|
-|2018|ECCV|[Learning Data Terms for Non-blind Deblurring](http://openaccess.thecvf.com/content_ECCV_2018/html/Jiangxin_Dong_Learning_Data_Terms_ECCV_2018_paper.html)||
-|2018|NIPS|[Deep Non-Blind Deconvolution via Generalized Low-Rank Approximation](https://papers.nips.cc/paper/7313-deep-non-blind-deconvolution-via-generalized-low-rank-approximation.pdf)|[Code](https://github.com/rwenqi/NBD-GLRA)|
-|2020|CVPR|[Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring](https://openaccess.thecvf.com/content_CVPR_2020/html/Nan_Variational-EM-Based_Deep_Learning_for_Noise-Blind_Image_Deblurring_CVPR_2020_paper.html)||
-|2020|CVPR|[Deep Learning for Handling Kernel/model Uncertainty in Image Deconvolution](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nan_Deep_Learning_for_Handling_Kernelmodel_Uncertainty_in_Image_Deconvolution_CVPR_2020_paper.pdf)||
-|2020|ECCV|[End-to-end interpretable learning of non-blind image deblurring](https://arxiv.org/abs/2007.01769)||
-|2020|Arxiv|[The Maximum Entropy on the Mean Method for Image Deblurring](https://arxiv.org/pdf/2002.10434.pdf)||
+|Year|Pub|Paper|Repo|Cite|
+|:---:|:---:|:---:|:---:|:---:|
+|2006|IJCV|[Image deblurring in the presence of impulsive noise](https://link.springer.com/article/10.1007/s11263-006-6468-1)||135|
+|2009|NIPS|[Fast image deconvolution using hyper-laplacian priors](http://cs.nyu.edu/~dilip/research/papers/fid_nips09.pdf)|[Code & Project page](https://dilipkay.wordpress.com/fast-deconvolution/)|1107|
+|2011|PAMI|[Richardson-Lucy Deblurring for Scenes under a Projective Motion Path](https://ieeexplore.ieee.org/document/5674049)||300|
+|2011|ICCV|[Handling outliers in non-blind image deconvolution](http://cg.postech.ac.kr/papers/deconv_outliers.pdf)|[Code](https://github.com/CoupeLibrary/handleoutlier)|206|
+|2011|ICCV|[From learning models of natural image patches to whole image restoration](http://people.ee.duke.edu/~lcarin/EPLICCVCameraReady.pdf)|[Code](http://people.csail.mit.edu/danielzoran/)|1089|
+|2012|TIP|[Bm3d frames and variational image deblurring](https://www.cs.tut.fi/~foi/GCF-BM3D/BM3DframesDeblur-Danielyan.pdf)||453|
+|2012|TIP|[Robust image deblurring with an inaccurate blur kernel](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.1055&rep=rep1&type=pdf)|[Code](https://blog.nus.edu.sg/matjh/download/)|62|
+|2013|CVPR|[A machine learning approach for non-blind image deconvolution](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Schuler_A_Machine_Learning_2013_CVPR_paper.pdf)|[Code & Project page](http://webdav.is.mpg.de/pixel/neural_deconvolution/)|217|
+|2013|CVPR|[Discriminative non-blind deblurring](http://openaccess.thecvf.com/content_cvpr_2013/papers/Schmidt_Discriminative_Non-blind_Deblurring_2013_CVPR_paper.pdf)|[Code](https://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#discriminative_deblurring)|100|
+|2014|TIP|[A general framework for regularized, similarity-based image restoration](http://www.academia.edu/download/42621942/A_General_Framework_for_Regularized_Simi20160212-19526-i3txol.pdf)|[Code & Project page](http://alumni.soe.ucsc.edu/~aminkh/KernelRestoration.html)|94|
+|2014|NIPS|[Deep convolutional neural network for image deconvolution](http://www.cse.cuhk.edu.hk/leojia/papers/deconv_nips14.pdf)|[Code & Project page](http://lxu.me/projects/dcnn/)|606|
+|2014|CVPR|[Shrinkage fields for effective image restoration](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)|[Code](https://github.com/uschmidt83/shrinkage-fields)|372|
+|2014|ECCV|[Good Image Priors for Non-blind Deconvolution: Generic vs Specific](http://cs.brown.edu/~lbsun/GoodPriors2014/goodpriors_eccv2014.pdf)|[Project page](http://cs.brown.edu/~lbsun/GoodPriors2014/goodpriors2014eccv.html)|47|
+|2016|CVIP|[Fast Non-Blind Image De-blurring With Sparse Priors](https://link.springer.com/chapter/10.1007/978-981-10-2104-6_56)||2|
+|2017|TIP|[Partial Deconvolution With Inaccurate Blur Kernel](https://ieeexplore.ieee.org/document/8071032)||14|
+|2017|CVPR|[Noise-Blind Image Deblurring](http://openaccess.thecvf.com/content_cvpr_2017/html/Jin_Noise-Blind_Image_Deblurring_CVPR_2017_paper.html)||21|
+|2017|CVPR|[Learning Deep CNN Denoiser Prior for Image Restoration](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhang_Learning_Deep_CNN_CVPR_2017_paper.html)|[Code](https://github.com/cszn/ircnn)|667|
+|2017|CVPR|[Learning Fully Convolutional Networks for Iterative Non-blind Deconvolution](https://arxiv.org/pdf/1611.06495)|[Code](https://github.com/zhjwustc/cvpr17_iter_deblur_testing_matconvnet)|67|
+|2017|ICCV|[Learning to push the limits of efficient fft-based image deconvolution](http://research.uweschmidt.org/pubs/iccv17kruse.pdf)|[Code](https://github.com/uschmidt83/fourier-deconvolution-network)|35|
+|2017|NIPS|[Deep Mean-Shift Priors for Image Restoration](https://papers.nips.cc/paper/6678-deep-mean-shift-priors-for-image-restoration.pdf)|[Code](https://github.com/siavashbigdeli/DMSP)|63|
+|2018|ICIP|[Modeling Realistic Degradations in Non-Blind Deconvolution](https://arxiv.org/abs/1806.01097)|||
+|2018|CVPR|[Non-blind Deblurring: Handling Kernel Uncertainty with CNNs](http://openaccess.thecvf.com/content_cvpr_2018/html/Vasu_Non-Blind_Deblurring_Handling_CVPR_2018_paper.html)|[Project page & Results-on-benchmark-datasets](https://github.com/subeeshvasu/2018_subeesh_nbd_cvpr)|8|
+|2018|Arxiv|[Learning an Optimizer for Image Deconvolution](https://arxiv.org/abs/1804.03368)|[Code](https://github.com/donggong1/learn-optimizer-rgdn)|13|
+|2018|ECCV|[Learning Data Terms for Non-blind Deblurring](http://openaccess.thecvf.com/content_ECCV_2018/html/Jiangxin_Dong_Learning_Data_Terms_ECCV_2018_paper.html)||8|
+|2018|NIPS|[Deep Non-Blind Deconvolution via Generalized Low-Rank Approximation](https://papers.nips.cc/paper/7313-deep-non-blind-deconvolution-via-generalized-low-rank-approximation.pdf)|[Code](https://github.com/rwenqi/NBD-GLRA)|15|
+|2020|CVPR|[Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring](https://openaccess.thecvf.com/content_CVPR_2020/html/Nan_Variational-EM-Based_Deep_Learning_for_Noise-Blind_Image_Deblurring_CVPR_2020_paper.html)||1|
+|2020|CVPR|[Deep Learning for Handling Kernel/model Uncertainty in Image Deconvolution](https://openaccess.thecvf.com/content_CVPR_2020/papers/Nan_Deep_Learning_for_Handling_Kernelmodel_Uncertainty_in_Image_Deconvolution_CVPR_2020_paper.pdf)||1|
+|2020|ECCV|[End-to-end interpretable learning of non-blind image deblurring](https://arxiv.org/abs/2007.01769)|||
+|2020|Arxiv|[The Maximum Entropy on the Mean Method for Image Deblurring](https://arxiv.org/pdf/2002.10434.pdf)|||
 
 ## (Multi-image/Video)-Motion-Deblurring
 |Year|Pub|Paper|Repo|
@@ -235,17 +235,17 @@
 |2020|ECCV|[Defocus Blur Detection via Depth Distillation](https://arxiv.org/abs/2007.08113)|[Code](https://github.com/vinthony/depth-distillation)|
 
 ## Benchmark Datasets on Motion Deblurring
-|Year|Pub|Paper|Repo|
-|:---:|:---:|:---:|:---:|
-|2009|CVPR|[Understanding and evaluating blind deconvolution algorithms](http://webee.technion.ac.il/people/anat.levin/papers/deconvLevinEtalCVPR09.pdf)|[Dataset](http://webee.technion.ac.il/people/anat.levin/papers/LevinEtalCVPR09Data.rar)|
-|2012|ECCV|[Recording and playback of camera shake: benchmarking blind deconvolution with a real-world database](http://webdav.is.mpg.de/pixel/benchmark4camerashake/src_files/Pdf/Koehler_ECCV2012_Benchmark.pdf)|[Dataset](http://webdav.is.mpg.de/pixel/benchmark4camerashake/)|
-|2013|ICCP|[Edge-based blur kernel estimation using patch priors](http://cs.brown.edu/~lbsun/deblur2013/patchdeblur_iccp2013.pdf)|[Dataset](http://cs.brown.edu/~lbsun/deblur2013/deblur2013iccp.html)|
-|2016|CVPR|[A Comparative Study for Single Image Blind Deblurring](http://vllab.ucmerced.edu/wlai24/cvpr16_deblur_study/paper/cvpr16_deblur_study.pdf)|[Dataset](http://vllab.ucmerced.edu/wlai24/cvpr16_deblur_study/)|
-|2017|CVPR (GOPRO)|[Deep multi-scale convolutional neural network for dynamic scene deblurring](http://zpascal.net/cvpr2017/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf)|[Dataset](https://github.com/SeungjunNah/DeepDeblur_release)|
-|2017|CVPR|[Deep Video Deblurring for Hand-Held Cameras](http://openaccess.thecvf.com/content_cvpr_2017/html/Su_Deep_Video_Deblurring_CVPR_2017_paper.html)|[Dataset](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/)|
-|2019|CVPR (Stereo Blur Dataset)|[Stereo Deblurring With View Aggregation](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhou_DAVANet_Stereo_Deblurring_With_View_Aggregation_CVPR_2019_paper.html)|[Dataset](https://stereoblur.shangchenzhou.com/)|
-|2019|CVPR_W (REDS)|[NTIRE 2019 Challenge on Video Deblurring and Super-Resolution: Dataset and Study](http://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Nah_NTIRE_2019_Challenge_on_Video_Deblurring_and_Super-Resolution_Dataset_and_CVPRW_2019_paper.html)|[Dataset](https://seungjunnah.github.io/Datasets/reds)|
-|2019|ICCV (HIDE)|[Human-Aware Motion Deblurring](https://pdfs.semanticscholar.org/20a4/b3353579525f0b76ec42e17a2284b4453f9a.pdf)|[Dataset](https://github.com/joanshen0508/HA_deblur)|
-|2020|CVPR|[Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860)||
-|2020|CVPR|[Learning Event-Based Motion Deblurring](https://arxiv.org/abs/2004.05794)||
-|2020|ECCV|[Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700188.pdf)|[Code & Dataset](http://cg.postech.ac.kr/research/realblur/)|
+|Year|Pub|Paper|Repo|Cite|
+|:---:|:---:|:---:|:---:|:---:|
+|2009|CVPR|[Understanding and evaluating blind deconvolution algorithms](http://webee.technion.ac.il/people/anat.levin/papers/deconvLevinEtalCVPR09.pdf)|[Dataset](http://webee.technion.ac.il/people/anat.levin/papers/LevinEtalCVPR09Data.rar)|1048|
+|2012|ECCV|[Recording and playback of camera shake: benchmarking blind deconvolution with a real-world database](http://webdav.is.mpg.de/pixel/benchmark4camerashake/src_files/Pdf/Koehler_ECCV2012_Benchmark.pdf)|[Dataset](http://webdav.is.mpg.de/pixel/benchmark4camerashake/)|269|
+|2013|ICCP|[Edge-based blur kernel estimation using patch priors](http://cs.brown.edu/~lbsun/deblur2013/patchdeblur_iccp2013.pdf)|[Dataset](http://cs.brown.edu/~lbsun/deblur2013/deblur2013iccp.html)|297|
+|2016|CVPR|[A Comparative Study for Single Image Blind Deblurring](http://vllab.ucmerced.edu/wlai24/cvpr16_deblur_study/paper/cvpr16_deblur_study.pdf)|[Dataset](http://vllab.ucmerced.edu/wlai24/cvpr16_deblur_study/)|168|
+|2017|CVPR (GOPRO)|[Deep multi-scale convolutional neural network for dynamic scene deblurring](http://zpascal.net/cvpr2017/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf)|[Dataset](https://github.com/SeungjunNah/DeepDeblur_release)|515|
+|2017|CVPR|[Deep Video Deblurring for Hand-Held Cameras](http://openaccess.thecvf.com/content_cvpr_2017/html/Su_Deep_Video_Deblurring_CVPR_2017_paper.html)|[Dataset](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/)|190|
+|2019|CVPR (Stereo Blur Dataset)|[Stereo Deblurring With View Aggregation](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhou_DAVANet_Stereo_Deblurring_With_View_Aggregation_CVPR_2019_paper.html)|[Dataset](https://stereoblur.shangchenzhou.com/)|15|
+|2019|CVPR_W (REDS)|[NTIRE 2019 Challenge on Video Deblurring and Super-Resolution: Dataset and Study](http://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Nah_NTIRE_2019_Challenge_on_Video_Deblurring_and_Super-Resolution_Dataset_and_CVPRW_2019_paper.html)|[Dataset](https://seungjunnah.github.io/Datasets/reds)|34|
+|2019|ICCV (HIDE)|[Human-Aware Motion Deblurring](https://pdfs.semanticscholar.org/20a4/b3353579525f0b76ec42e17a2284b4453f9a.pdf)|[Dataset](https://github.com/joanshen0508/HA_deblur)|15|
+|2020|CVPR|[Deblurring by Realistic Blurring](https://arxiv.org/abs/2004.01860)|||
+|2020|CVPR|[Learning Event-Based Motion Deblurring](https://arxiv.org/abs/2004.05794)||2|
+|2020|ECCV|[Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700188.pdf)|[Code & Dataset](http://cg.postech.ac.kr/research/realblur/)||
